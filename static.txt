@@ -1,0 +1,8 @@
+
+The static keyword in Java is used for memory management mainly. We can apply static keyword with variables, methods,blocks
+ and nested classes. The static keyword belongs to the class than an instance of the class.
+I used static keyword in my framework for utility classes like dropdownUtil,ActionsUtil,synchronisationUtil,AlertUtil
+For ex in dropdownUtil I make selectByindex,selectByvisibletext,selectByvalue these methods as static .So that I can make 
+use of this methods without creating a object.In this way we can manage memory by using static keyword.
+ I have used static keyword for declaring driver object in singleton design pattern .By declaring driver as static we 
+can use this across all the classes and framework.
